@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/computer">
+
+    <TextView
+        android:id="@+id/textAboutAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:text="@string/cite_author"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/game_info"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAboutAuthor"
+        android:background="@drawable/custom_button_option"/>
+
+    <TextView
+        android:id="@+id/textCitations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/citations"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/textBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cite_background"
+        app:layout_constraintBottom_toBottomOf="@+id/textCitations"
+        app:layout_constraintStart_toEndOf="@+id/textCitations"
+        app:layout_constraintTop_toTopOf="@+id/textCitations"
+        android:background="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/textMineIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cite_mine"
+        app:layout_constraintBottom_toBottomOf="@+id/textBackground"
+        app:layout_constraintStart_toEndOf="@+id/textBackground"
+        app:layout_constraintTop_toTopOf="@+id/textBackground"
+        android:background="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/textLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cite_logo"
+        app:layout_constraintBottom_toBottomOf="@+id/textMineIcon"
+        app:layout_constraintStart_toEndOf="@+id/textMineIcon"
+        app:layout_constraintTop_toTopOf="@+id/textMineIcon"
+        android:background="#FFFFFF"/>
+
+
+    <TextView
+        android:id="@+id/textAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cite_Audio"
+        app:layout_constraintBottom_toBottomOf="@+id/textLogo"
+        app:layout_constraintStart_toEndOf="@+id/textLogo"
+        app:layout_constraintTop_toTopOf="@+id/textLogo"
+        android:background="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/textGameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cite_GameOverImg"
+        app:layout_constraintBottom_toBottomOf="@+id/textAudio"
+        app:layout_constraintStart_toEndOf="@+id/textAudio"
+        app:layout_constraintTop_toTopOf="@+id/textAudio"
+        android:background="#FFFFFF"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

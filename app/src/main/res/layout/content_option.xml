@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/computer">
+
+    <RadioGroup
+        android:id="@+id/row_option"
+        android:layout_width="150dp"
+        android:layout_height="275dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:background="@color/design_default_color_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSetting" />
+
+    <RadioGroup
+        android:id="@+id/mines_option"
+        android:layout_width="154dp"
+        android:layout_height="268dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/col_option"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toEndOf="@+id/row_option"
+        app:layout_constraintTop_toTopOf="@+id/col_option" />
+
+    <RadioGroup
+        android:id="@+id/col_option"
+        android:layout_width="150dp"
+        android:layout_height="275dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/row_option"
+        app:layout_constraintEnd_toStartOf="@+id/mines_option"
+        app:layout_constraintStart_toEndOf="@+id/row_option"
+        app:layout_constraintTop_toTopOf="@+id/row_option" />
+
+    <TextView
+        android:id="@+id/textSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/settings"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/custom_button_option"/>
+
+    <TextView
+        android:id="@+id/textRowOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/row_options"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/row_option"
+        app:layout_constraintStart_toStartOf="@+id/row_option"
+        app:layout_constraintTop_toBottomOf="@+id/textSetting"
+        android:background="@drawable/custom_button_option"/>
+
+    <TextView
+        android:id="@+id/textColOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/column_options"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textRowOption"
+        app:layout_constraintStart_toStartOf="@+id/col_option"
+        app:layout_constraintTop_toTopOf="@+id/textRowOption"
+        android:background="@drawable/custom_button_option"/>
+
+    <TextView
+        android:id="@+id/textMineOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mine_options"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textColOption"
+        app:layout_constraintStart_toStartOf="@+id/mines_option"
+        app:layout_constraintTop_toTopOf="@+id/textColOption"
+        android:background="@drawable/custom_button_option"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

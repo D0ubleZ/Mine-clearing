@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Mine Seeker</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="scans_used"># Scans Used:</string>
+    <string name="title_activity_welcome_screen">WelcomeScreenActivity</string>
+    <string name="title_activity_mine">MineActivity</string>
+    <string name="title_activity_help">Help</string>
+    <string name="cite_author">
+        <a href="https://opencoursehub.cs.sfu.ca/jackt/grav-cms/cmpt276/home">About the author</a></string>
+    <string name="cite_background">
+        <a href="https://www.voipshield.com/20-common-types-of-viruses-affecting-your-computer/">Background,</a></string>
+    <string name="cite_mine">
+        <a href="https://www.voipshield.com/20-common-types-of-viruses-affecting-your-computer/">Mine Icon,</a></string>
+    <string name="game_info">Game Information:\nThe purpose of the game is to identify bugs in a comptuer system.\nThe user may:\n1. Customize the game by clicking on the Option button in the Main Screen.\n2. Select the Start button to create a new game.\nClick on a tile to check whether it is a virus or not\n4.If there is a virus hidden in the tile, the click will reveal the virus.\n5. If there is no virus, the click will display the number of hidden virus in its row and column.\n6. If a tile is revealed and is a virus, the click will display the number of remaining hidden virus in its row and column.\n7. If the tile is revealed and there is no virus, the click will simply count as a scan.\n8. All clicks on a tile will add up to the total scan used.\nChallenge yourself to identify ALL virus in the computer!</string>
+    <string name="cite_logo">
+        <a href="https://whatismyipaddress.com/avoid-viruses">Logo,</a></string>
+    <string name="title_activity_option">OptionActivity</string>
+    <string name="cite_Audio">
+        <a href="http://soundbible.com/2158-Text-Message-Alert-5.html">Audio,</a></string>
+    <string name="cite_GameOverImg">
+        <a href="https://yourturntodie.fandom.com/wiki/Game_over">Game Over Image</a></string>
+    <string name="settings">Settings</string>
+    <string name="row_options">Row Options:</string>
+    <string name="column_options">Column Options:</string>
+    <string name="mine_options">Mine Options:</string>
+    <string name="citations">Citations:</string>
+    <string name="option">Option</string>
+    <string name="help">Help</string>
+    <string name="create_a_new_game">Create A New Game</string>
+    <string name="found">Found</string>
+    <string name="_0">0</string>
+    <string name="of">of</string>
+    <string name="mines">mines</string>
+    <string name="mine_seeker">MINE SEEKER</string>
+    <string name="by_njeffrey_tiger_wang_nzihao_zhao">By:\nJeffrey Tiger Wang\nZihao Zhao</string>
+
+
+</resources>
